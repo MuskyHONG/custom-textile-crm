@@ -1,0 +1,176 @@
+2026-04-09 13:44:03 info: Server running on port 3001
+2026-04-09 13:44:03 info: Connected to MongoDB
+2026-04-09 15:03:42 info: Server running on port 3001
+2026-04-09 15:03:42 info: Connected to MongoDB
+2026-04-09 15:56:50 info: Server running on port 3001
+2026-04-09 15:56:50 info: Connected to MongoDB
+2026-04-09 16:06:53 info: User logged in: admin
+2026-04-09 16:13:51 info: User logged in: admin
+2026-04-10 09:13:18 info: User logged in: admin
+2026-04-10 14:40:05 info: User logged in: admin
+2026-04-10 14:41:30 info: Server running on port 3001
+2026-04-10 14:41:30 info: Connected to MongoDB
+2026-04-10 14:41:44 info: Customer created: 测试客户1
+2026-04-10 14:41:52 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:41:52 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:42:23 error: Error exporting quote: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Project"
+2026-04-10 14:42:27 error: Error adjusting quote: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Project"
+2026-04-10 14:42:30 error: Error adjusting quote: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Project"
+2026-04-10 14:42:38 error: Error creating order: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Project"
+2026-04-10 14:42:40 error: Error creating order: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Project"
+2026-04-10 14:44:09 info: User registered: test1
+2026-04-10 14:44:28 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:44:28 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:45:50 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:45:50 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:45:59 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:45:59 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:02 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:02 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:03 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:03 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:04 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:04 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:06 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:06 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:10 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:46:10 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:48:25 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 14:48:25 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:06:57 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:06:57 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:07:38 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:07:38 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:10:01 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:10:01 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:05 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:05 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:23 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:23 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:31 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:11:31 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:17:48 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-10 15:17:48 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:31:25 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:31:25 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:31:31 info: User logged in: admin
+2026-04-14 10:31:33 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:31:33 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:48:48 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:48:48 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:49:17 info: Project created: 沙发垫咨询
+2026-04-14 10:49:33 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:49:33 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:49:53 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:49:53 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:52:02 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:52:02 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:53:02 info: Project created: 沙发垫咨询
+2026-04-14 10:53:10 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:53:10 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:53:30 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:53:30 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:55:39 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:55:39 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:55:57 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:55:57 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:56:34 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:56:34 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:56:49 info: Project created: 沙发垫咨询
+2026-04-14 10:56:59 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:56:59 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:57:56 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 10:57:56 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:04:46 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:04:46 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:05:29 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:05:29 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:05:58 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:05:58 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:06:04 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:06:04 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:08:01 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:08:01 error: Error getting project: Cast to ObjectId failed for value "templates" (type string) at path "_id" for model "Project"
+2026-04-14 11:08:31 info: Project created: 1
+2026-04-14 11:11:25 info: Server running on port 3001
+2026-04-14 11:11:25 info: Connected to MongoDB
+2026-04-14 11:32:54 info: Customer created: 测试客户2
+2026-04-14 15:24:49 info: Project created: 沙发垫咨询测试1
+2026-04-14 15:36:18 info: Project created: 沙发垫咨询测试2
+2026-04-14 15:41:27 info: Project created: 沙发垫咨询测试3
+2026-04-14 15:44:29 info: Server running on port 3001
+2026-04-14 15:44:29 info: Connected to MongoDB
+2026-04-14 15:49:50 info: Project created: 沙发垫咨询测试4
+2026-04-14 15:51:00 info: Project created: 沙发垫咨询测试5
+2026-04-14 15:55:34 info: Server running on port 3001
+2026-04-14 15:55:34 info: Connected to MongoDB
+2026-04-14 15:56:30 info: Project created: 沙发垫咨询测试6
+2026-04-14 16:42:28 info: Project updated: 沙发垫咨询测试6
+2026-04-14 16:42:28 info: Order created: ORD1776156148503
+2026-04-14 16:42:43 info: Project updated: 沙发垫咨询测试6
+2026-04-14 16:42:43 info: Order created: ORD1776156163396
+2026-04-14 16:44:28 info: Project created: 沙发垫咨询测试7
+2026-04-14 16:44:28 info: Order created: ORD1776156268762
+2026-04-15 09:01:26 info: Server running on port 3001
+2026-04-15 09:01:56 error: Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-15 09:08:54 info: Server running on port 3001
+2026-04-15 09:08:54 info: Connected to MongoDB
+2026-04-15 09:16:54 info: Project created: 窗帘咨询测试1
+2026-04-15 09:17:16 info: Project updated: 窗帘咨询测试1
+2026-04-15 09:17:16 info: Order created: ORD1776215836829
+2026-04-15 09:27:03 info: Project created: 客户2测试
+2026-04-15 09:50:32 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 09:50:56 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 09:53:34 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 09:53:42 error: Error creating customer: Customer validation failed: customerId: Path `customerId` is required.
+2026-04-15 09:53:50 error: Error creating customer: Customer validation failed: customerId: Path `customerId` is required., phone: Path `phone` is required.
+2026-04-15 09:53:54 error: Error creating customer: Customer validation failed: customerId: Path `customerId` is required.
+2026-04-15 09:55:56 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 09:55:59 error: Error creating customer: Customer validation failed: customerId: Path `customerId` is required.
+2026-04-15 09:56:28 error: Error creating customer: Customer validation failed: customerId: Path `customerId` is required.
+2026-04-15 09:57:07 info: Server running on port 3001
+2026-04-15 09:57:07 info: Connected to MongoDB
+2026-04-15 09:57:23 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 09:57:26 info: Customer created: 客户ID测试1
+2026-04-15 10:00:38 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 10:00:49 error: Error creating customer: E11000 duplicate key error collection: custom-fabric.customers index: customerId_1 dup key: { customerId: null }
+2026-04-15 10:00:54 error: Error getting customer: Cast to ObjectId failed for value "generate-id" (type string) at path "_id" for model "Customer"
+2026-04-15 10:01:02 error: Error creating customer: E11000 duplicate key error collection: custom-fabric.customers index: customerId_1 dup key: { customerId: null }
+2026-04-15 10:15:26 info: Server running on port 3001
+2026-04-15 10:15:26 info: Connected to MongoDB
+2026-04-15 10:16:02 info: Customer created: ID测试2
+2026-04-15 10:54:51 info: User registered: musky
+2026-04-15 10:58:49 info: Server running on port 3001
+2026-04-15 10:58:49 info: Connected to MongoDB
+2026-04-15 11:06:11 info: Project created: 沙发垫咨询界面显示优惠售价测试1
+2026-04-15 11:08:47 info: User logged in: admin
+2026-04-15 11:13:25 info: Server running on port 3001
+2026-04-15 11:13:25 info: Connected to MongoDB
+2026-04-15 11:26:45 info: Project created: 成交地址测试1
+2026-04-15 11:27:12 info: Order created: ORD1776223632732
+2026-04-15 11:28:09 info: Project updated: 沙发垫咨询测试5
+2026-04-15 11:29:59 info: Server running on port 3001
+2026-04-15 11:29:59 info: Connected to MongoDB
+2026-04-15 11:32:31 info: Server running on port 3001
+2026-04-15 11:32:31 info: Connected to MongoDB
+2026-04-15 11:33:11 info: Project created: 成交地址测试2
+2026-04-15 11:33:21 info: Order created: ORD1776224001887
+2026-04-15 11:43:11 info: Customer created: 累计金额测试客户1
+2026-04-15 11:43:50 info: Project created: 累计金额测试1
+2026-04-15 11:44:08 info: Order created: ORD1776224648095
+2026-04-15 11:44:36 info: Server running on port 3001
+2026-04-15 11:44:36 info: Connected to MongoDB
+2026-04-15 14:07:55 info: Server running on port 3001
+2026-04-15 14:07:55 info: Connected to MongoDB
+2026-04-15 14:14:08 info: Order status updated: ORD1776156268762, new status: processing
+2026-04-15 14:14:10 info: Order status updated: ORD1776156268762, new status: pending
+2026-04-15 14:14:11 info: Order status updated: ORD1776156268762, new status: completed
+2026-04-15 14:14:13 info: Order status updated: ORD1776156268762, new status: pending
+2026-04-15 14:14:16 info: Order status updated: ORD1776224648095, new status: pending
+2026-04-15 14:14:17 info: Order status updated: ORD1776224648095, new status: processing
+2026-04-15 14:14:19 info: Order status updated: ORD1776224648095, new status: completed
+2026-04-15 14:14:19 info: Order status updated: ORD1776224648095, new status: pending
+2026-04-15 14:18:48 info: Server running on port 3001
+2026-04-15 14:18:48 info: Connected to MongoDB
+2026-04-15 14:21:10 info: Server running on port 3001
+2026-04-15 14:21:10 info: Connected to MongoDB

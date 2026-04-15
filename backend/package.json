@@ -1,0 +1,32 @@
+{
+  "name": "custom-fabric-backend",
+  "version": "1.0.0",
+  "description": "定制家居织物品牌客服工具后端",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "custom",
+    "fabric",
+    "customer",
+    "service"
+  ],
+  "author": "",
+  "license": "MIT"
+}
