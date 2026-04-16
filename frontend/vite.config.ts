@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/custom-textile-crm/',
 
   server: {
     port: 3000,
-    base: '/custom-textile-crm/'
     proxy: {
       '/api': {
         target: 'http://localhost:3001',
