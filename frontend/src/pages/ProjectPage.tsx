@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Table, Button, Modal, Form, Input, message, Select, Tabs, Tag, Descriptions } from 'antd'
-import { PlusOutlined, EditOutlined, DeleteOutlined, EyeOutlined } from '@ant-design/icons'
+import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons'
 import { getProjects, createProject, updateProject, deleteProject, getTemplates, createTemplate, deleteTemplate } from '../redux/slices/projectSlice'
-import type { RootState } from '../redux/store'
+import type { RootState, AppDispatch } from '../redux/store'
 import { Link } from 'react-router-dom'
 
 const { Option } = Select
 
 const ProjectPage: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch<AppDispatch>()
   const { projects, templates, loading, error } = useSelector((state: RootState) => state.project)
   const [isModalVisible, setIsModalVisible] = useState(false)
   const [isTemplateModalVisible, setIsTemplateModalVisible] = useState(false)

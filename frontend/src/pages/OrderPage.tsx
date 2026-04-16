@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Table, Button, Modal, Form, Input, message, Select, Space, Tag, Descriptions } from 'antd'
-import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons'
+import { PlusOutlined, DeleteOutlined } from '@ant-design/icons'
 import { getOrders, createOrder, updateOrderStatus, cancelOrder } from '../redux/slices/orderSlice'
-import type { RootState } from '../redux/store'
+import type { RootState, AppDispatch } from '../redux/store'
 import { Link } from 'react-router-dom'
 
 const { Option } = Select
 
 const OrderPage: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch<AppDispatch>()
   const { orders, loading, error } = useSelector((state: RootState) => state.order)
   const [isModalVisible, setIsModalVisible] = useState(false)
   const [isCancelModalVisible, setIsCancelModalVisible] = useState(false)

@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Form, Input, Button, Card, message, Tabs } from 'antd'
 import { login, register } from '../redux/slices/authSlice'
-import type { RootState } from '../redux/store'
+import type { RootState, AppDispatch } from '../redux/store'
 
 const { TabPane } = Tabs
 
 const LoginPage: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch<AppDispatch>()
   const { loading, error } = useSelector((state: RootState) => state.auth)
   const [activeTab, setActiveTab] = useState('login')
 

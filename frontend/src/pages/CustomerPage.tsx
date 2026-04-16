@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Table, Button, Modal, Form, Input, message, Tag, Space, Tabs, Select, InputNumber, Checkbox, Descriptions } from 'antd'
+import { Table, Button, Modal, Form, Input, message, Tag, Space, Tabs, Select, InputNumber, Descriptions } from 'antd'
 import { PlusOutlined, EditOutlined, DeleteOutlined, HistoryOutlined, FileTextOutlined } from '@ant-design/icons'
 import { getCustomers, createCustomer, updateCustomer, deleteCustomer } from '../redux/slices/customerSlice'
-import type { RootState } from '../redux/store'
+import type { RootState, AppDispatch } from '../redux/store'
 import api from '../utils/axiosConfig'
 
 const { Option } = Select
-const { Group: CheckboxGroup } = Checkbox
 
 const CustomerPage: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch<AppDispatch>()
   const { customers, loading, error } = useSelector((state: RootState) => state.customer)
   const [searchKeyword, setSearchKeyword] = useState('')
   const [isModalVisible, setIsModalVisible] = useState(false)
@@ -39,16 +38,6 @@ const CustomerPage: React.FC = () => {
     custom: '定制'
   }
   
-  // 材质映射
-  const materialMap: { [key: string]: string } = {
-    cotton: '纯棉',
-    linen: '亚麻',
-    silk: '丝绸',
-    polyester: '涤纶',
-    blend: '混纺',
-    wool: '羊毛'
-  }
-  
   // 颜色映射
   const colorMap: { [key: string]: string } = {
     white: '白色',
@@ -60,16 +49,6 @@ const CustomerPage: React.FC = () => {
     red: '红色',
     yellow: '黄色',
     custom: '定制色'
-  }
-  
-  // 工艺映射
-  const processMap: { [key: string]: string } = {
-    embroidery: '刺绣',
-    printing: '印花',
-    pleating: '褶皱',
-    binding: '包边',
-    quilted: '绗缝',
-    custom: '特殊工艺'
   }
   
   // 沙发垫面料单价
@@ -232,48 +211,7 @@ const CustomerPage: React.FC = () => {
     }
   }
   
-  // 产品类型选项
-  const productTypes = [
-    { value: 'curtain', label: '窗帘' },
-    { value: 'sofa', label: '沙发套' },
-    { value: 'bedspread', label: '床品' },
-    { value: 'tablecloth', label: '桌布' },
-    { value: 'carpet', label: '地毯' },
-    { value: 'custom', label: '定制' }
-  ]
   
-  // 材质选项
-  const materials = [
-    { value: 'cotton', label: '纯棉' },
-    { value: 'linen', label: '亚麻' },
-    { value: 'silk', label: '丝绸' },
-    { value: 'polyester', label: '涤纶' },
-    { value: 'blend', label: '混纺' },
-    { value: 'wool', label: '羊毛' }
-  ]
-  
-  // 颜色选项
-  const colors = [
-    { value: 'white', label: '白色' },
-    { value: 'black', label: '黑色' },
-    { value: 'gray', label: '灰色' },
-    { value: 'beige', label: '米色' },
-    { value: 'blue', label: '蓝色' },
-    { value: 'green', label: '绿色' },
-    { value: 'red', label: '红色' },
-    { value: 'yellow', label: '黄色' },
-    { value: 'custom', label: '定制色' }
-  ]
-  
-  // 工艺选项
-  const processes = [
-    { value: 'embroidery', label: '刺绣' },
-    { value: 'printing', label: '印花' },
-    { value: 'pleating', label: '褶皱' },
-    { value: 'binding', label: '包边' },
-    { value: 'quilted', label: '绗缝' },
-    { value: 'custom', label: '特殊工艺' }
-  ]
   
   const getCustomerHistory = async (customerId: string) => {
     try {
@@ -555,7 +493,7 @@ const CustomerPage: React.FC = () => {
       dataIndex: 'totalAmount',
       key: 'totalAmount',
       width: 100,
-      align: 'right',
+      align: 'right' as const,
       render: (amount: number) => amount ? `¥${amount.toFixed(2)}` : '¥0.00'
     },
     {
@@ -984,11 +922,11 @@ const CustomerPage: React.FC = () => {
                         <div style={{ borderTop: '1px dashed #ccc', paddingTop: 8, marginBottom: 8 }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
                             <span style={{ color: '#666' }}>面料单价：</span>
-                            <span>{materialPrice ? `¥${materialPrice}/米` : '未配置'}</span>
+                            <span>{materialPrice && typeof materialPrice === 'number' ? `¥${materialPrice.toFixed(2)}/米` : '未配置'}</span>
                           </div>
                           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
                             <span style={{ color: '#666' }}>布料用量：</span>
-                            <span>{fabricUsage?.toFixed(2)} 米</span>
+                            <span>{typeof fabricUsage === 'number' ? fabricUsage.toFixed(2) : fabricUsage} 米</span>
                           </div>
                           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                             <span style={{ color: '#666', fontWeight: 'bold' }}>出厂成本：</span>

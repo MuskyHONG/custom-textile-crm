@@ -1,6 +1,5 @@
-import React from 'react'
 import { Routes, Route, Navigate, Link } from 'react-router-dom'
-import { Layout, Menu, ConfigProvider } from 'antd'
+import { Layout, Menu } from 'antd'
 import { UserOutlined, FileOutlined, ShoppingOutlined, BarChartOutlined, LogoutOutlined, TeamOutlined } from '@ant-design/icons'
 import { useSelector, useDispatch } from 'react-redux'
 import LoginPage from './pages/LoginPage'

@@ -1,7 +1,13 @@
 import axios from 'axios'
 
+interface ImportMetaEnv {
+  readonly VITE_APP_API_URL?: string
+}
+
+const apiUrl = (import.meta as { env?: ImportMetaEnv }).env?.VITE_APP_API_URL || '/api'
+
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || '/api',
+  baseURL: apiUrl,
   timeout: 10000
 })
 
